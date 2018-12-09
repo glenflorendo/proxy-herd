@@ -1,0 +1,56 @@
+2017-12-07 23:37:36,654 [Holiday] Start on port 17633
+2017-12-07 23:37:47,081 [Holiday] Connection started
+2017-12-07 23:37:47,081 [Holiday] Connected
+2017-12-07 23:37:47,081 [Holiday] Received 'AT Hamilton +33304782.684321642 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145' from ('::1', 64352, 0, 0)
+2017-12-07 23:37:47,081 [Holiday] Connected
+2017-12-07 23:37:47,085 [Holiday] Connected
+2017-12-07 23:37:47,085 [Holiday] Send: AT Holiday +33304782.684321642 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+2017-12-07 23:37:47,086 [Holiday] Disconnected
+2017-12-07 23:37:47,088 [Holiday] Connected
+2017-12-07 23:37:47,089 [Holiday] Send: AT Holiday +33304782.684321642 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+2017-12-07 23:37:47,089 [Holiday] Disconnected
+2017-12-07 23:37:47,090 [Holiday] Connection started
+2017-12-07 23:37:47,091 [Holiday] Connected
+2017-12-07 23:37:47,091 [Holiday] Received 'AT Ball +33304782.684321642 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145' from ('::1', 64359, 0, 0)
+2017-12-07 23:38:14,028 [Holiday] Start on port 17633
+2017-12-07 23:38:19,959 [Holiday] Connection started
+2017-12-07 23:38:19,959 [Holiday] Connected
+2017-12-07 23:38:19,959 [Holiday] Received 'AT Hamilton +33304815.563901424 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145' from ('::1', 64378, 0, 0)
+2017-12-07 23:38:19,960 [Holiday] Connected
+2017-12-07 23:38:19,962 [Holiday] Connected
+2017-12-07 23:38:19,962 [Holiday] Send: AT Holiday +33304815.563901424 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+2017-12-07 23:38:19,962 [Holiday] Disconnected
+2017-12-07 23:38:19,965 [Holiday] Connected
+2017-12-07 23:38:19,965 [Holiday] Send: AT Holiday +33304815.563901424 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+2017-12-07 23:38:19,965 [Holiday] Disconnected
+2017-12-07 23:38:19,965 [Holiday] Connection started
+2017-12-07 23:38:19,965 [Holiday] Connected
+2017-12-07 23:38:19,965 [Holiday] Received 'AT Ball +33304815.563901424 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145' from ('::1', 64385, 0, 0)
+2017-12-07 23:38:52,657 [Holiday] Start on port 17633
+2017-12-07 23:38:56,724 [Holiday] Connection started
+2017-12-07 23:38:56,724 [Holiday] Connected
+2017-12-07 23:38:56,724 [Holiday] Received 'AT Hamilton +33304852.32861352 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145' from ('::1', 64405, 0, 0)
+2017-12-07 23:38:56,724 [Holiday] Connected
+2017-12-07 23:38:56,727 [Holiday] Connected
+2017-12-07 23:38:56,727 [Holiday] Send: AT Holiday +33304852.32861352 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+2017-12-07 23:38:56,727 [Holiday] Disconnected
+2017-12-07 23:38:56,730 [Holiday] Connected
+2017-12-07 23:38:56,730 [Holiday] Send: AT Holiday +33304852.32861352 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+2017-12-07 23:38:56,730 [Holiday] Disconnected
+2017-12-07 23:38:56,732 [Holiday] Connection started
+2017-12-07 23:38:56,732 [Holiday] Connected
+2017-12-07 23:38:56,732 [Holiday] Received 'AT Ball +33304852.32861352 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145' from ('::1', 64412, 0, 0)
+2017-12-07 23:40:22,334 [Holiday] Start on port 17633
+2017-12-07 23:40:26,958 [Holiday] Connection started
+2017-12-07 23:40:26,958 [Holiday] Connected
+2017-12-07 23:40:26,958 [Holiday] Received 'AT Hamilton +33304942.561823606 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145' from ('::1', 64446, 0, 0)
+2017-12-07 23:40:26,958 [Holiday] Connected
+2017-12-07 23:40:26,962 [Holiday] Connected
+2017-12-07 23:40:26,962 [Holiday] Send: AT Holiday +33304942.561823606 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+2017-12-07 23:40:26,962 [Holiday] Disconnected
+2017-12-07 23:40:26,965 [Holiday] Connected
+2017-12-07 23:40:26,965 [Holiday] Send: AT Holiday +33304942.561823606 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+2017-12-07 23:40:26,966 [Holiday] Disconnected
+2017-12-07 23:40:26,966 [Holiday] Connection started
+2017-12-07 23:40:26,966 [Holiday] Connected
+2017-12-07 23:40:26,966 [Holiday] Received 'AT Ball +33304942.561823606 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145' from ('::1', 64453, 0, 0)

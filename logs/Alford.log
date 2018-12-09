@@ -1,0 +1,717 @@
+2017-12-07 23:19:25,732 [Alford] Start on port 17630
+2017-12-07 23:34:32,295 [Alford] Start on port 17630
+2017-12-07 23:34:35,416 [Alford] Connection started
+2017-12-07 23:34:35,416 [Alford] Task exception was never retrieved
+future: <Task finished coro=<main_server() done, defined at server.py:64> exception=TypeError('not all arguments converted during string formatting',)>
+Traceback (most recent call last):
+  File "server.py", line 72, in main_server
+    logging.info('Connected to %s' % addr)
+TypeError: not all arguments converted during string formatting
+2017-12-07 23:35:30,407 [Alford] Start on port 17630
+2017-12-07 23:35:33,192 [Alford] Connection started
+2017-12-07 23:35:33,193 [Alford] Task exception was never retrieved
+future: <Task finished coro=<main_server() done, defined at server.py:64> exception=TypeError('not all arguments converted during string formatting',)>
+Traceback (most recent call last):
+  File "server.py", line 72, in main_server
+    logging.info('Connected to %r' % addr)
+TypeError: not all arguments converted during string formatting
+2017-12-07 23:35:47,965 [Alford] Start on port 17630
+2017-12-07 23:35:49,800 [Alford] Connection started
+2017-12-07 23:35:49,801 [Alford] Connected
+2017-12-07 23:35:49,801 [Alford] Received 'IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450' from ('::1', 64310, 0, 0)
+2017-12-07 23:35:49,803 [Alford] Task exception was never retrieved
+future: <Task finished coro=<main_server() done, defined at server.py:64> exception=OSError("Multiple exceptions: [Errno 61] Connect call failed ('::1', 17632), [Errno 61] Connect call failed ('127.0.0.1', 17632)",)>
+Traceback (most recent call last):
+  File "server.py", line 81, in main_server
+    yield from propagate_client(CURR_SERVER, response)
+  File "server.py", line 210, in propagate_client
+    yield from talk(SERVERS_PORTS[n], data)
+  File "server.py", line 216, in talk
+    port)
+  File "/usr/local/Cellar/python3/3.6.3/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/streams.py", line 75, in open_connection
+    lambda: protocol, host, port, **kwds)
+  File "/usr/local/Cellar/python3/3.6.3/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 786, in create_connection
+    ', '.join(str(exc) for exc in exceptions)))
+OSError: Multiple exceptions: [Errno 61] Connect call failed ('::1', 17632), [Errno 61] Connect call failed ('127.0.0.1', 17632)
+2017-12-07 23:37:47,075 [Alford] Connection started
+2017-12-07 23:37:47,076 [Alford] Connected
+2017-12-07 23:37:47,076 [Alford] Received 'IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450' from ('::1', 64349, 0, 0)
+2017-12-07 23:37:47,077 [Alford] Connected
+2017-12-07 23:37:47,078 [Alford] Send: AT Alford +33304782.684321642 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+2017-12-07 23:37:47,078 [Alford] Disconnected
+2017-12-07 23:37:47,080 [Alford] Connected
+2017-12-07 23:37:47,080 [Alford] Send: AT Alford +33304782.684321642 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+2017-12-07 23:37:47,080 [Alford] Disconnected
+2017-12-07 23:37:47,080 [Alford] Send: AT Alford +33304782.684321642 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+2017-12-07 23:37:47,080 [Alford] Connection dropped
+2017-12-07 23:37:47,087 [Alford] Connection started
+2017-12-07 23:37:47,087 [Alford] Connection started
+2017-12-07 23:37:47,087 [Alford] Connection started
+2017-12-07 23:37:47,087 [Alford] Connected
+2017-12-07 23:37:47,087 [Alford] Received 'AT Hamilton +33304782.684321642 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145' from ('::1', 64353, 0, 0)
+2017-12-07 23:37:47,087 [Alford] Connected
+2017-12-07 23:37:47,087 [Alford] Received 'AT Welsh +33304782.684321642 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145' from ('::1', 64354, 0, 0)
+2017-12-07 23:37:47,087 [Alford] Connected
+2017-12-07 23:37:47,087 [Alford] Received 'WHATSAT kiwi.cs.ucla.edu 10 5' from ('::1', 64356, 0, 0)
+2017-12-07 23:37:47,088 [Alford] Task exception was never retrieved
+future: <Task finished coro=<main_server() done, defined at server.py:64> exception=TypeError("'<' not supported between instances of 'str' and 'int'",)>
+Traceback (most recent call last):
+  File "server.py", line 93, in main_server
+    if radius < 0 or radius > 50:
+TypeError: '<' not supported between instances of 'str' and 'int'
+2017-12-07 23:38:18,134 [Alford] Start on port 17630
+2017-12-07 23:38:19,955 [Alford] Connection started
+2017-12-07 23:38:19,955 [Alford] Connected
+2017-12-07 23:38:19,955 [Alford] Received 'IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450' from ('::1', 64375, 0, 0)
+2017-12-07 23:38:19,957 [Alford] Connected
+2017-12-07 23:38:19,957 [Alford] Send: AT Alford +33304815.563901424 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+2017-12-07 23:38:19,957 [Alford] Disconnected
+2017-12-07 23:38:19,958 [Alford] Connected
+2017-12-07 23:38:19,958 [Alford] Send: AT Alford +33304815.563901424 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+2017-12-07 23:38:19,959 [Alford] Disconnected
+2017-12-07 23:38:19,959 [Alford] Send: AT Alford +33304815.563901424 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+2017-12-07 23:38:19,959 [Alford] Connection dropped
+2017-12-07 23:38:19,963 [Alford] Connection started
+2017-12-07 23:38:19,963 [Alford] Connection started
+2017-12-07 23:38:19,963 [Alford] Connection started
+2017-12-07 23:38:19,963 [Alford] Connected
+2017-12-07 23:38:19,963 [Alford] Received 'AT Hamilton +33304815.563901424 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145' from ('::1', 64380, 0, 0)
+2017-12-07 23:38:19,963 [Alford] Connected
+2017-12-07 23:38:19,964 [Alford] Received 'AT Welsh +33304815.563901424 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145' from ('::1', 64382, 0, 0)
+2017-12-07 23:38:19,964 [Alford] Connected
+2017-12-07 23:38:19,964 [Alford] Received 'WHATSAT kiwi.cs.ucla.edu 10 5' from ('::1', 64379, 0, 0)
+2017-12-07 23:38:19,964 [Alford] Task exception was never retrieved
+future: <Task finished coro=<main_server() done, defined at server.py:64> exception=TypeError('must be str, not int',)>
+Traceback (most recent call last):
+  File "server.py", line 98, in main_server
+    query = yield from whatsat(client, radius, max_num)
+  File "/usr/local/Cellar/python3/3.6.3/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/coroutines.py", line 210, in coro
+    res = func(*args, **kw)
+  File "server.py", line 168, in whatsat
+    radius = '&radius=' + radius
+TypeError: must be str, not int
+2017-12-07 23:38:55,568 [Alford] Start on port 17630
+2017-12-07 23:38:56,720 [Alford] Connection started
+2017-12-07 23:38:56,720 [Alford] Connected
+2017-12-07 23:38:56,720 [Alford] Received 'IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450' from ('::1', 64402, 0, 0)
+2017-12-07 23:38:56,721 [Alford] Connected
+2017-12-07 23:38:56,722 [Alford] Send: AT Alford +33304852.32861352 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+2017-12-07 23:38:56,722 [Alford] Disconnected
+2017-12-07 23:38:56,723 [Alford] Connected
+2017-12-07 23:38:56,723 [Alford] Send: AT Alford +33304852.32861352 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+2017-12-07 23:38:56,724 [Alford] Disconnected
+2017-12-07 23:38:56,724 [Alford] Send: AT Alford +33304852.32861352 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+2017-12-07 23:38:56,724 [Alford] Connection dropped
+2017-12-07 23:38:56,727 [Alford] Connection started
+2017-12-07 23:38:56,727 [Alford] Connection started
+2017-12-07 23:38:56,728 [Alford] Connection started
+2017-12-07 23:38:56,728 [Alford] Connected
+2017-12-07 23:38:56,728 [Alford] Received 'AT Hamilton +33304852.32861352 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145' from ('::1', 64406, 0, 0)
+2017-12-07 23:38:56,728 [Alford] Connected
+2017-12-07 23:38:56,728 [Alford] Received 'WHATSAT kiwi.cs.ucla.edu 10 5' from ('::1', 64407, 0, 0)
+2017-12-07 23:38:56,731 [Alford] Connected
+2017-12-07 23:38:56,731 [Alford] Received 'AT Welsh +33304852.32861352 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145' from ('::1', 64409, 0, 0)
+2017-12-07 23:38:56,984 [Alford] Connect to Google
+2017-12-07 23:38:57,172 [Alford] Received: 
+{
+   "html_attributions" : [],
+   "results" : [
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 34.068864,
+               "lng" : -118.4450156
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 34.07021298029149,
+                  "lng" : -118.4436666197085
+               },
+               "southwest" : {
+                  "lat" : 34.0675150197085,
+                  "lng" : -118.4463645802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+         "id" : "ef162ea4f60a0b3933fae75544dba377b996befa",
+         "name" : "Westwood Plaza",
+         "place_id" : "ChIJ6Re7qYi8woAR22jVhVAye2M",
+         "reference" : "CmRbAAAAb45c_tsEInKw9p_M2jhP4YKoC_l3oKBF8R7JX9xd_bg4i3KgmhhzUyY0Got0wXEOq81mMlwLfoRpY2ONAihjMRuNGJ6CLvcq3LdYyZu55QGZk26Cruz2_AUg4QaIWbiBEhAkzMwJF-PNV8MZiPfvr4PNGhQRlLywzNgXS3gUgBkGiA0J8YA26A",
+         "scope" : "GOOGLE",
+         "types" : [ "route" ],
+         "vicinity" : "Los Angeles"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 34.068921,
+               "lng" : -118.4451811
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 34.08632165,
+                  "lng" : -118.4298687
+               },
+               "southwest" : {
+                  "lat" : 34.05637465,
+                  "lng" : -118.4632287
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+         "id" : "4d56f16ad3d8976d49143fa4fdfffbc0a7ce8e39",
+         "name" : "University of California, Los Angeles",
+         "photos" : [
+            {
+               "height" : 2432,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104814070553445544652/photos\"\u003eThomas Chee\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAbw-n8RdJD7drKcucCN7tYEi9a_iSy-pXN_DEOAaI2lk_dOdh7S3rXuDmclZBND_vXrrobQGNuYatvV0wxjj5XKFQhPtvChcY8gQMgH6oq4hixfFEN2uvWC_4kejXXlyBEhBtOAUM7lnkcmbXjMrALi66GhSo99iAJ1oLwfvnAFSJfF7fn7qhUw",
+               "width" : 3648
+            }
+         ],
+         "place_id" : "ChIJZQ9c8IW8woARN0gTXFiTqSU",
+         "rating" : 4.5,
+         "reference" : "CmRRAAAAjinrRifqfS6n2gtpVJs0nTGwg4LgQ9sVHga7y6zrC3XUFBsKXtWVwkjBa3vUUdmqRjlH_uA14LhApscl2fKoPpCITCyDYUxw_j9K6Hjb3HwsE__1pY20M6_-vohNQ8ThEhAGVQQmRNc0YtM5aT0s2k6tGhQI3UVx6CltoS2N-8hqNRgGUIFHYw",
+         "scope" : "GOOGLE",
+         "types" : [ "university", "point_of_interest", "establishment" ],
+         "vicinity" : "Los Angeles"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 34.0522342,
+               "lng" : -118.2436849
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 34.3373061,
+                  "lng" : -118.1552891
+               },
+               "southwest" : {
+                  "lat" : 33.7036519,
+                  "lng" : -118.6681759
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+         "id" : "7f7b7d8118ae8db8ed3f541159ac928c484d12ad",
+         "name" : "Los Angeles",
+         "photos" : [
+            {
+               "height" : 712,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100101449848330425696/photos\"\u003ePatrick Morrison\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAsBfXv3cvWIVlDi0WEKtgRvF6KWU9Dru7ZVGu75CUtQQ3zOk0JUktgzRyaImklos9nZDlZlSLYyGynU4xNSV-JBcTE9XWRiLI9-Yar9a0c-XXZz2Q6LJ_oQ5NpNUhwgEcEhCKJfgasYIuNy3HS9L2kB_AGhQlbtaraNI1nehCRmcmK73wYhacsg",
+               "width" : 1200
+            }
+         ],
+         "place_id" : "ChIJE9on3F3HwoAR9AhGJW_fL-I",
+         "reference" : "CmRbAAAAgAaTWaheMBb2H8CNCup8DtERygQhgbVgeOOU7i2ol1QTpACQSjouQC7yTSmqErvbQE04OqmUSFL2wRVIjZp1eJiTGJb6hR76dunKKGNLMfiHnNW_cJS-bV7wdmjMXJdnEhDJs6KLWoRd9RokUjmumSJUGhQSQ4Z7pRSyky2Zvx5cp0Cww-Q-oA",
+         "scope" : "GOOGLE",
+         "types" : [ "locality", "political" ],
+         "vicinity" : "Los Angeles"
+      }
+   ],
+   "status" : "OK"
+}
+2017-12-07 23:38:57,172 [Alford] Disconnect from Google
+2017-12-07 23:38:57,176 [Alford] Task exception was never retrieved
+future: <Task finished coro=<main_server() done, defined at server.py:64> exception=TypeError('sequence item 0: expected str instance, generator found',)>
+Traceback (most recent call last):
+  File "server.py", line 105, in main_server
+    response = '\n'.join([response, search_results, '', ''])
+TypeError: sequence item 0: expected str instance, generator found
+2017-12-07 23:40:25,364 [Alford] Start on port 17630
+2017-12-07 23:40:26,953 [Alford] Connection started
+2017-12-07 23:40:26,953 [Alford] Connected
+2017-12-07 23:40:26,953 [Alford] Received 'IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450' from ('::1', 64443, 0, 0)
+2017-12-07 23:40:26,955 [Alford] Connected
+2017-12-07 23:40:26,955 [Alford] Send: AT Alford +33304942.561823606 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+2017-12-07 23:40:26,955 [Alford] Disconnected
+2017-12-07 23:40:26,957 [Alford] Connected
+2017-12-07 23:40:26,957 [Alford] Send: AT Alford +33304942.561823606 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+2017-12-07 23:40:26,957 [Alford] Disconnected
+2017-12-07 23:40:26,957 [Alford] Send: AT Alford +33304942.561823606 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+2017-12-07 23:40:26,957 [Alford] Connection dropped
+2017-12-07 23:40:26,963 [Alford] Connection started
+2017-12-07 23:40:26,963 [Alford] Connection started
+2017-12-07 23:40:26,963 [Alford] Connection started
+2017-12-07 23:40:26,963 [Alford] Connected
+2017-12-07 23:40:26,963 [Alford] Received 'AT Hamilton +33304942.561823606 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145' from ('::1', 64447, 0, 0)
+2017-12-07 23:40:26,964 [Alford] Connected
+2017-12-07 23:40:26,964 [Alford] Received 'AT Welsh +33304942.561823606 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145' from ('::1', 64449, 0, 0)
+2017-12-07 23:40:26,964 [Alford] Connected
+2017-12-07 23:40:26,964 [Alford] Received 'WHATSAT kiwi.cs.ucla.edu 10 5' from ('::1', 64450, 0, 0)
+2017-12-07 23:40:27,081 [Alford] Connect to Google
+2017-12-07 23:40:27,225 [Alford] Received: 
+{
+   "html_attributions" : [],
+   "results" : [
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 34.068864,
+               "lng" : -118.4450156
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 34.07021298029149,
+                  "lng" : -118.4436666197085
+               },
+               "southwest" : {
+                  "lat" : 34.0675150197085,
+                  "lng" : -118.4463645802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+         "id" : "ef162ea4f60a0b3933fae75544dba377b996befa",
+         "name" : "Westwood Plaza",
+         "place_id" : "ChIJ6Re7qYi8woAR22jVhVAye2M",
+         "reference" : "CmRbAAAAh-J5UdpfmeacN676QmOsoKqipeOvbzbmrZE_V27RVv7A6skBZiMd3ffGcmM_iPe_mdE8FapxUoJVJC94jQKtqkSWDC29Zh8bKlm63y5RIGJNhgW4p2Ci7OgESj7tuAkYEhD3Fhcxu60l5iPriwQqdP--GhSUOU4tQ11MysmcGPNBTTQhIek8iQ",
+         "scope" : "GOOGLE",
+         "types" : [ "route" ],
+         "vicinity" : "Los Angeles"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 34.068921,
+               "lng" : -118.4451811
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 34.08632165,
+                  "lng" : -118.4298687
+               },
+               "southwest" : {
+                  "lat" : 34.05637465,
+                  "lng" : -118.4632287
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+         "id" : "4d56f16ad3d8976d49143fa4fdfffbc0a7ce8e39",
+         "name" : "University of California, Los Angeles",
+         "photos" : [
+            {
+               "height" : 2432,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104814070553445544652/photos\"\u003eThomas Chee\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAXFzksmU6jKpFEPmX8wkKUfuo-TaIE-yDSxSWpWhIC8506NVFWQRSgFCNsXDVfrwG0Rwn0VTtGzMktZJ2KSHxn1aJlhCh1mHrqwop62w1_p9PTiAK1HWAntCSs7gfF3cYEhB2n2MH3cRJcRQoixeyA3ESGhQqGvivGDMcu_XACY-85SlH1j5H-Q",
+               "width" : 3648
+            }
+         ],
+         "place_id" : "ChIJZQ9c8IW8woARN0gTXFiTqSU",
+         "rating" : 4.5,
+         "reference" : "CmRRAAAAhj_q_6kipt6ZVXPSrZQFQhZPD9ST3bgQQ3VEnYTH3Bwq2MbL7_SFXjnW2ZSVyY6slilQT1Zt2vbcJV9yokMn3cMSvtfNFpd6Qrpr4uUEh8KzgHUeN_FjQkSH5ERHO47LEhDEBDCjJZjsRN8yzamxwqSPGhTYM_qyILseVog9U2Ft5Ciz0cdXQQ",
+         "scope" : "GOOGLE",
+         "types" : [ "university", "point_of_interest", "establishment" ],
+         "vicinity" : "Los Angeles"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 34.0522342,
+               "lng" : -118.2436849
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 34.3373061,
+                  "lng" : -118.1552891
+               },
+               "southwest" : {
+                  "lat" : 33.7036519,
+                  "lng" : -118.6681759
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+         "id" : "7f7b7d8118ae8db8ed3f541159ac928c484d12ad",
+         "name" : "Los Angeles",
+         "photos" : [
+            {
+               "height" : 712,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100101449848330425696/photos\"\u003ePatrick Morrison\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAPyo8TYRfgDJaMl9XA8NlfvpzKh3oAQhwlG6uCoaMAHUhcLFElV_rjVRTH3khmmZQ0R4TGe2IqyQHRuf-CIyrGjhUcwYgD9uDa2_rGZ5yCeZAfzBqrPME68V-p1StuWKOEhDnI4ExxiwxPW4EWohoXni-GhS6SWZWA1vax9_WpaRBH7ppNl2BBw",
+               "width" : 1200
+            }
+         ],
+         "place_id" : "ChIJE9on3F3HwoAR9AhGJW_fL-I",
+         "reference" : "CmRbAAAAe8yiRYK7xY6M1VEWyDqN9IlRlz4gwHhzAU1S4s-cwXhnyTdUpxEA4OwbTZtHW1mRAsJRK7cHUH8VsJpf5jJ6INnA8dtiZy-aGNitCtV_mt8fwVYYEzDkuc9FXvx1LLS8EhDLzMSJb2PLjHfUlZa2_OqJGhTACVWXx7IQSeCOwMTjvGpKGPrtcQ",
+         "scope" : "GOOGLE",
+         "types" : [ "locality", "political" ],
+         "vicinity" : "Los Angeles"
+      }
+   ],
+   "status" : "OK"
+}
+2017-12-07 23:40:27,226 [Alford] Disconnect from Google
+2017-12-07 23:40:27,227 [Alford] Send: AT Alford +33304942.835443497 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+{
+   "html_attributions": [],
+   "results": [
+      {
+         "geometry": {
+            "location": {
+               "lat": 34.068864,
+               "lng": -118.4450156
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": 34.07021298029149,
+                  "lng": -118.4436666197085
+               },
+               "southwest": {
+                  "lat": 34.0675150197085,
+                  "lng": -118.4463645802915
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+         "id": "ef162ea4f60a0b3933fae75544dba377b996befa",
+         "name": "Westwood Plaza",
+         "place_id": "ChIJ6Re7qYi8woAR22jVhVAye2M",
+         "reference": "CmRbAAAAh-J5UdpfmeacN676QmOsoKqipeOvbzbmrZE_V27RVv7A6skBZiMd3ffGcmM_iPe_mdE8FapxUoJVJC94jQKtqkSWDC29Zh8bKlm63y5RIGJNhgW4p2Ci7OgESj7tuAkYEhD3Fhcxu60l5iPriwQqdP--GhSUOU4tQ11MysmcGPNBTTQhIek8iQ",
+         "scope": "GOOGLE",
+         "types": [
+            "route"
+         ],
+         "vicinity": "Los Angeles"
+      },
+      {
+         "geometry": {
+            "location": {
+               "lat": 34.068921,
+               "lng": -118.4451811
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": 34.08632165,
+                  "lng": -118.4298687
+               },
+               "southwest": {
+                  "lat": 34.05637465,
+                  "lng": -118.4632287
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+         "id": "4d56f16ad3d8976d49143fa4fdfffbc0a7ce8e39",
+         "name": "University of California, Los Angeles",
+         "photos": [
+            {
+               "height": 2432,
+               "html_attributions": [
+                  "<a href=\"https://maps.google.com/maps/contrib/104814070553445544652/photos\">Thomas Chee</a>"
+               ],
+               "photo_reference": "CmRaAAAAXFzksmU6jKpFEPmX8wkKUfuo-TaIE-yDSxSWpWhIC8506NVFWQRSgFCNsXDVfrwG0Rwn0VTtGzMktZJ2KSHxn1aJlhCh1mHrqwop62w1_p9PTiAK1HWAntCSs7gfF3cYEhB2n2MH3cRJcRQoixeyA3ESGhQqGvivGDMcu_XACY-85SlH1j5H-Q",
+               "width": 3648
+            }
+         ],
+         "place_id": "ChIJZQ9c8IW8woARN0gTXFiTqSU",
+         "rating": 4.5,
+         "reference": "CmRRAAAAhj_q_6kipt6ZVXPSrZQFQhZPD9ST3bgQQ3VEnYTH3Bwq2MbL7_SFXjnW2ZSVyY6slilQT1Zt2vbcJV9yokMn3cMSvtfNFpd6Qrpr4uUEh8KzgHUeN_FjQkSH5ERHO47LEhDEBDCjJZjsRN8yzamxwqSPGhTYM_qyILseVog9U2Ft5Ciz0cdXQQ",
+         "scope": "GOOGLE",
+         "types": [
+            "university",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity": "Los Angeles"
+      },
+      {
+         "geometry": {
+            "location": {
+               "lat": 34.0522342,
+               "lng": -118.2436849
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": 34.3373061,
+                  "lng": -118.1552891
+               },
+               "southwest": {
+                  "lat": 33.7036519,
+                  "lng": -118.6681759
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+         "id": "7f7b7d8118ae8db8ed3f541159ac928c484d12ad",
+         "name": "Los Angeles",
+         "photos": [
+            {
+               "height": 712,
+               "html_attributions": [
+                  "<a href=\"https://maps.google.com/maps/contrib/100101449848330425696/photos\">Patrick Morrison</a>"
+               ],
+               "photo_reference": "CmRaAAAAPyo8TYRfgDJaMl9XA8NlfvpzKh3oAQhwlG6uCoaMAHUhcLFElV_rjVRTH3khmmZQ0R4TGe2IqyQHRuf-CIyrGjhUcwYgD9uDa2_rGZ5yCeZAfzBqrPME68V-p1StuWKOEhDnI4ExxiwxPW4EWohoXni-GhS6SWZWA1vax9_WpaRBH7ppNl2BBw",
+               "width": 1200
+            }
+         ],
+         "place_id": "ChIJE9on3F3HwoAR9AhGJW_fL-I",
+         "reference": "CmRbAAAAe8yiRYK7xY6M1VEWyDqN9IlRlz4gwHhzAU1S4s-cwXhnyTdUpxEA4OwbTZtHW1mRAsJRK7cHUH8VsJpf5jJ6INnA8dtiZy-aGNitCtV_mt8fwVYYEzDkuc9FXvx1LLS8EhDLzMSJb2PLjHfUlZa2_OqJGhTACVWXx7IQSeCOwMTjvGpKGPrtcQ",
+         "scope": "GOOGLE",
+         "types": [
+            "locality",
+            "political"
+         ],
+         "vicinity": "Los Angeles"
+      }
+   ],
+   "status": "OK"
+}
+
+
+2017-12-07 23:40:27,227 [Alford] Connection dropped
+2017-12-07 23:40:59,412 [Alford] Connection started
+2017-12-07 23:40:59,412 [Alford] Connected
+2017-12-07 23:40:59,413 [Alford] Received 'IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450' from ('::1', 64468, 0, 0)
+2017-12-07 23:40:59,414 [Alford] Connected
+2017-12-07 23:40:59,414 [Alford] Send: AT Alford +33304975.021145344 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+2017-12-07 23:40:59,415 [Alford] Disconnected
+2017-12-07 23:40:59,416 [Alford] Connected
+2017-12-07 23:40:59,416 [Alford] Send: AT Alford +33304975.021145344 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+2017-12-07 23:40:59,417 [Alford] Disconnected
+2017-12-07 23:40:59,417 [Alford] Send: AT Alford +33304975.021145344 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+2017-12-07 23:40:59,417 [Alford] Connection dropped
+2017-12-07 23:40:59,419 [Alford] Connection started
+2017-12-07 23:40:59,419 [Alford] Connected
+2017-12-07 23:40:59,419 [Alford] Received 'WHATSAT kiwi.cs.ucla.edu 10 5' from ('::1', 64471, 0, 0)
+2017-12-07 23:40:59,572 [Alford] Connect to Google
+2017-12-07 23:40:59,690 [Alford] Received: 
+{
+   "html_attributions" : [],
+   "results" : [
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 34.068864,
+               "lng" : -118.4450156
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 34.07021298029149,
+                  "lng" : -118.4436666197085
+               },
+               "southwest" : {
+                  "lat" : 34.0675150197085,
+                  "lng" : -118.4463645802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+         "id" : "ef162ea4f60a0b3933fae75544dba377b996befa",
+         "name" : "Westwood Plaza",
+         "place_id" : "ChIJ6Re7qYi8woAR22jVhVAye2M",
+         "reference" : "CmRbAAAALR0cV9xHSGc8ThNoPAhzRHKM0plPe51vGXZa82uSjcVN5odLL8_fIn5B2Eu2IFBV3-hMMqgG9Wwsip8NSDt42do3RhAgWwRdFxixEowEg0ekEuAwDr6gX7sHlXErEvP9EhBz18PUfFBt8_cUtowIJ-l7GhQ-kJCHe6mJw-PTscy3UcD3cF5Imw",
+         "scope" : "GOOGLE",
+         "types" : [ "route" ],
+         "vicinity" : "Los Angeles"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 34.068921,
+               "lng" : -118.4451811
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 34.08632165,
+                  "lng" : -118.4298687
+               },
+               "southwest" : {
+                  "lat" : 34.05637465,
+                  "lng" : -118.4632287
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+         "id" : "4d56f16ad3d8976d49143fa4fdfffbc0a7ce8e39",
+         "name" : "University of California, Los Angeles",
+         "photos" : [
+            {
+               "height" : 2432,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104814070553445544652/photos\"\u003eThomas Chee\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAANJGq4PtMm6OaTlhLA_ipigzcJz0pm0cJOoDaGfrRuZlY9kBG619InNLHU1hq3NAE-Ht2FgnUq-laYHaPlIqcZ011MiMZBX3lsM-oyUURximMdqpxIzREO3pe1OgOsBrZEhA1W3k_qiGLq092N3QZg01VGhRptCMKQDkgr69aYors1KosiwBm_w",
+               "width" : 3648
+            }
+         ],
+         "place_id" : "ChIJZQ9c8IW8woARN0gTXFiTqSU",
+         "rating" : 4.5,
+         "reference" : "CmRRAAAA6M--OjV8mjWaYPw1Kyj8p0aWFQgdRtdVPOs9iDPQsJWfAsLaYV2zOECUsdNMyJroF7Anff2C6gw0cR3tdW9BPNvHfkJEl91Ik_RhkRwKYYITz3bm3moraqhkau2cKr50EhBXN1uw9EwoKJweXM5joqgsGhT6YKCL1H3vIqCBkcMIoFyWXgpWYA",
+         "scope" : "GOOGLE",
+         "types" : [ "university", "point_of_interest", "establishment" ],
+         "vicinity" : "Los Angeles"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 34.0522342,
+               "lng" : -118.2436849
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 34.3373061,
+                  "lng" : -118.1552891
+               },
+               "southwest" : {
+                  "lat" : 33.7036519,
+                  "lng" : -118.6681759
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+         "id" : "7f7b7d8118ae8db8ed3f541159ac928c484d12ad",
+         "name" : "Los Angeles",
+         "photos" : [
+            {
+               "height" : 712,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100101449848330425696/photos\"\u003ePatrick Morrison\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAda5r0noEUnt86olWZSnIEe3Wdm9E_q5I09OPDYHpxXo9ftSMd1KvW7K8-qRb3lhEjAifl1DpvmPkkF5x-EQ5dPvaqNwfRAnfzSjtJhaQCdVDYhVKSGAldpP-PER3gwnrEhA6L1JB18dymRn59JvdeLeCGhRUXPwEg5Klcq5oTpg67CosBLHNSw",
+               "width" : 1200
+            }
+         ],
+         "place_id" : "ChIJE9on3F3HwoAR9AhGJW_fL-I",
+         "reference" : "CmRbAAAArbH8KmMk5Y4m8rcNQPWuIYDA-2N2JAAPASvIg4mg93P8L-vNrtv0_u2K28E_JZecNlf882yzIra4zk_L6L7IbRjqhOKvosjtvWrWYdJpaIYBSkIKnF8iDGxLPfk55zaIEhAuoNWuaVZea26SLu-pxEDpGhR2H76zOtCK8KRTPJ079mC6XAxNVw",
+         "scope" : "GOOGLE",
+         "types" : [ "locality", "political" ],
+         "vicinity" : "Los Angeles"
+      }
+   ],
+   "status" : "OK"
+}
+2017-12-07 23:40:59,690 [Alford] Disconnect from Google
+2017-12-07 23:40:59,691 [Alford] Send: AT Alford +33304975.29987359 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+{
+   "html_attributions": [],
+   "results": [
+      {
+         "geometry": {
+            "location": {
+               "lat": 34.068864,
+               "lng": -118.4450156
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": 34.07021298029149,
+                  "lng": -118.4436666197085
+               },
+               "southwest": {
+                  "lat": 34.0675150197085,
+                  "lng": -118.4463645802915
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+         "id": "ef162ea4f60a0b3933fae75544dba377b996befa",
+         "name": "Westwood Plaza",
+         "place_id": "ChIJ6Re7qYi8woAR22jVhVAye2M",
+         "reference": "CmRbAAAALR0cV9xHSGc8ThNoPAhzRHKM0plPe51vGXZa82uSjcVN5odLL8_fIn5B2Eu2IFBV3-hMMqgG9Wwsip8NSDt42do3RhAgWwRdFxixEowEg0ekEuAwDr6gX7sHlXErEvP9EhBz18PUfFBt8_cUtowIJ-l7GhQ-kJCHe6mJw-PTscy3UcD3cF5Imw",
+         "scope": "GOOGLE",
+         "types": [
+            "route"
+         ],
+         "vicinity": "Los Angeles"
+      },
+      {
+         "geometry": {
+            "location": {
+               "lat": 34.068921,
+               "lng": -118.4451811
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": 34.08632165,
+                  "lng": -118.4298687
+               },
+               "southwest": {
+                  "lat": 34.05637465,
+                  "lng": -118.4632287
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+         "id": "4d56f16ad3d8976d49143fa4fdfffbc0a7ce8e39",
+         "name": "University of California, Los Angeles",
+         "photos": [
+            {
+               "height": 2432,
+               "html_attributions": [
+                  "<a href=\"https://maps.google.com/maps/contrib/104814070553445544652/photos\">Thomas Chee</a>"
+               ],
+               "photo_reference": "CmRaAAAANJGq4PtMm6OaTlhLA_ipigzcJz0pm0cJOoDaGfrRuZlY9kBG619InNLHU1hq3NAE-Ht2FgnUq-laYHaPlIqcZ011MiMZBX3lsM-oyUURximMdqpxIzREO3pe1OgOsBrZEhA1W3k_qiGLq092N3QZg01VGhRptCMKQDkgr69aYors1KosiwBm_w",
+               "width": 3648
+            }
+         ],
+         "place_id": "ChIJZQ9c8IW8woARN0gTXFiTqSU",
+         "rating": 4.5,
+         "reference": "CmRRAAAA6M--OjV8mjWaYPw1Kyj8p0aWFQgdRtdVPOs9iDPQsJWfAsLaYV2zOECUsdNMyJroF7Anff2C6gw0cR3tdW9BPNvHfkJEl91Ik_RhkRwKYYITz3bm3moraqhkau2cKr50EhBXN1uw9EwoKJweXM5joqgsGhT6YKCL1H3vIqCBkcMIoFyWXgpWYA",
+         "scope": "GOOGLE",
+         "types": [
+            "university",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity": "Los Angeles"
+      },
+      {
+         "geometry": {
+            "location": {
+               "lat": 34.0522342,
+               "lng": -118.2436849
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": 34.3373061,
+                  "lng": -118.1552891
+               },
+               "southwest": {
+                  "lat": 33.7036519,
+                  "lng": -118.6681759
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+         "id": "7f7b7d8118ae8db8ed3f541159ac928c484d12ad",
+         "name": "Los Angeles",
+         "photos": [
+            {
+               "height": 712,
+               "html_attributions": [
+                  "<a href=\"https://maps.google.com/maps/contrib/100101449848330425696/photos\">Patrick Morrison</a>"
+               ],
+               "photo_reference": "CmRaAAAAda5r0noEUnt86olWZSnIEe3Wdm9E_q5I09OPDYHpxXo9ftSMd1KvW7K8-qRb3lhEjAifl1DpvmPkkF5x-EQ5dPvaqNwfRAnfzSjtJhaQCdVDYhVKSGAldpP-PER3gwnrEhA6L1JB18dymRn59JvdeLeCGhRUXPwEg5Klcq5oTpg67CosBLHNSw",
+               "width": 1200
+            }
+         ],
+         "place_id": "ChIJE9on3F3HwoAR9AhGJW_fL-I",
+         "reference": "CmRbAAAArbH8KmMk5Y4m8rcNQPWuIYDA-2N2JAAPASvIg4mg93P8L-vNrtv0_u2K28E_JZecNlf882yzIra4zk_L6L7IbRjqhOKvosjtvWrWYdJpaIYBSkIKnF8iDGxLPfk55zaIEhAuoNWuaVZea26SLu-pxEDpGhR2H76zOtCK8KRTPJ079mC6XAxNVw",
+         "scope": "GOOGLE",
+         "types": [
+            "locality",
+            "political"
+         ],
+         "vicinity": "Los Angeles"
+      }
+   ],
+   "status": "OK"
+}
+
+
+2017-12-07 23:40:59,692 [Alford] Connection dropped
+2017-12-07 23:40:59,696 [Alford] Connection started
+2017-12-07 23:40:59,697 [Alford] Connected
+2017-12-07 23:40:59,697 [Alford] Received 'AT Alford +0.263873386 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450' from ('::1', 64473, 0, 0)

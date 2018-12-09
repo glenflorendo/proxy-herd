@@ -1,0 +1,59 @@
+2017-12-07 23:37:31,940 [Hamilton] Start on port 17632
+2017-12-07 23:37:47,078 [Hamilton] Connection started
+2017-12-07 23:37:47,078 [Hamilton] Connected
+2017-12-07 23:37:47,078 [Hamilton] Received 'AT Alford +33304782.684321642 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145' from ('::1', 64350, 0, 0)
+2017-12-07 23:37:47,078 [Hamilton] Connected
+2017-12-07 23:37:47,080 [Hamilton] Connected
+2017-12-07 23:37:47,080 [Hamilton] Send: AT Hamilton +33304782.684321642 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+2017-12-07 23:37:47,080 [Hamilton] Disconnected
+2017-12-07 23:37:47,085 [Hamilton] Connected
+2017-12-07 23:37:47,085 [Hamilton] Send: AT Hamilton +33304782.684321642 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+2017-12-07 23:37:47,085 [Hamilton] Disconnected
+2017-12-07 23:37:47,089 [Hamilton] Connection started
+2017-12-07 23:37:47,089 [Hamilton] Connected
+2017-12-07 23:37:47,089 [Hamilton] Received 'AT Holiday +33304782.684321642 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145' from ('::1', 64358, 0, 0)
+2017-12-07 23:38:15,399 [Hamilton] Start on port 17632
+2017-12-07 23:38:19,957 [Hamilton] Connection started
+2017-12-07 23:38:19,957 [Hamilton] Connected
+2017-12-07 23:38:19,957 [Hamilton] Received 'AT Alford +33304815.563901424 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145' from ('::1', 64376, 0, 0)
+2017-12-07 23:38:19,957 [Hamilton] Connected
+2017-12-07 23:38:19,959 [Hamilton] Connected
+2017-12-07 23:38:19,959 [Hamilton] Send: AT Hamilton +33304815.563901424 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+2017-12-07 23:38:19,959 [Hamilton] Disconnected
+2017-12-07 23:38:19,962 [Hamilton] Connected
+2017-12-07 23:38:19,962 [Hamilton] Send: AT Hamilton +33304815.563901424 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+2017-12-07 23:38:19,962 [Hamilton] Disconnected
+2017-12-07 23:38:19,965 [Hamilton] Connection started
+2017-12-07 23:38:19,965 [Hamilton] Connected
+2017-12-07 23:38:19,965 [Hamilton] Received 'AT Holiday +33304815.563901424 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145' from ('::1', 64383, 0, 0)
+2017-12-07 23:38:53,508 [Hamilton] Start on port 17632
+2017-12-07 23:38:56,722 [Hamilton] Connection started
+2017-12-07 23:38:56,722 [Hamilton] Connected
+2017-12-07 23:38:56,722 [Hamilton] Received 'AT Alford +33304852.32861352 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145' from ('::1', 64403, 0, 0)
+2017-12-07 23:38:56,722 [Hamilton] Connected
+2017-12-07 23:38:56,723 [Hamilton] Connected
+2017-12-07 23:38:56,724 [Hamilton] Send: AT Hamilton +33304852.32861352 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+2017-12-07 23:38:56,724 [Hamilton] Disconnected
+2017-12-07 23:38:56,727 [Hamilton] Connected
+2017-12-07 23:38:56,727 [Hamilton] Send: AT Hamilton +33304852.32861352 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+2017-12-07 23:38:56,727 [Hamilton] Disconnected
+2017-12-07 23:38:56,730 [Hamilton] Connection started
+2017-12-07 23:38:56,730 [Hamilton] Connected
+2017-12-07 23:38:56,731 [Hamilton] Received 'AT Holiday +33304852.32861352 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145' from ('::1', 64411, 0, 0)
+2017-12-07 23:40:23,136 [Hamilton] Start on port 17632
+2017-12-07 23:40:26,955 [Hamilton] Connection started
+2017-12-07 23:40:26,955 [Hamilton] Connected
+2017-12-07 23:40:26,955 [Hamilton] Received 'AT Alford +33304942.561823606 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145' from ('::1', 64444, 0, 0)
+2017-12-07 23:40:26,955 [Hamilton] Connected
+2017-12-07 23:40:26,957 [Hamilton] Connected
+2017-12-07 23:40:26,957 [Hamilton] Send: AT Hamilton +33304942.561823606 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+2017-12-07 23:40:26,957 [Hamilton] Disconnected
+2017-12-07 23:40:26,961 [Hamilton] Connected
+2017-12-07 23:40:26,962 [Hamilton] Send: AT Hamilton +33304942.561823606 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+2017-12-07 23:40:26,962 [Hamilton] Disconnected
+2017-12-07 23:40:26,965 [Hamilton] Connection started
+2017-12-07 23:40:26,966 [Hamilton] Connected
+2017-12-07 23:40:26,966 [Hamilton] Received 'AT Holiday +33304942.561823606 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145' from ('::1', 64452, 0, 0)
+2017-12-07 23:40:59,414 [Hamilton] Connection started
+2017-12-07 23:40:59,415 [Hamilton] Connected
+2017-12-07 23:40:59,415 [Hamilton] Received 'AT Alford +33304975.021145344 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145' from ('::1', 64469, 0, 0)

@@ -1,0 +1,59 @@
+2017-12-07 23:37:42,818 [Welsh] Start on port 17634
+2017-12-07 23:37:47,080 [Welsh] Connection started
+2017-12-07 23:37:47,080 [Welsh] Connected
+2017-12-07 23:37:47,081 [Welsh] Received 'AT Alford +33304782.684321642 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145' from ('::1', 64351, 0, 0)
+2017-12-07 23:37:47,081 [Welsh] Connected
+2017-12-07 23:37:47,086 [Welsh] Connected
+2017-12-07 23:37:47,086 [Welsh] Send: AT Welsh +33304782.684321642 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+2017-12-07 23:37:47,086 [Welsh] Disconnected
+2017-12-07 23:37:47,088 [Welsh] Connected
+2017-12-07 23:37:47,088 [Welsh] Send: AT Welsh +33304782.684321642 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+2017-12-07 23:37:47,088 [Welsh] Disconnected
+2017-12-07 23:37:47,092 [Welsh] Connection started
+2017-12-07 23:37:47,092 [Welsh] Connected
+2017-12-07 23:37:47,092 [Welsh] Received 'AT Ball +33304782.684321642 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145' from ('::1', 64360, 0, 0)
+2017-12-07 23:38:12,157 [Welsh] Start on port 17634
+2017-12-07 23:38:19,959 [Welsh] Connection started
+2017-12-07 23:38:19,959 [Welsh] Connected
+2017-12-07 23:38:19,959 [Welsh] Received 'AT Alford +33304815.563901424 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145' from ('::1', 64377, 0, 0)
+2017-12-07 23:38:19,959 [Welsh] Connected
+2017-12-07 23:38:19,962 [Welsh] Connected
+2017-12-07 23:38:19,962 [Welsh] Send: AT Welsh +33304815.563901424 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+2017-12-07 23:38:19,962 [Welsh] Disconnected
+2017-12-07 23:38:19,965 [Welsh] Connected
+2017-12-07 23:38:19,965 [Welsh] Send: AT Welsh +33304815.563901424 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+2017-12-07 23:38:19,965 [Welsh] Disconnected
+2017-12-07 23:38:19,967 [Welsh] Connection started
+2017-12-07 23:38:19,967 [Welsh] Connected
+2017-12-07 23:38:19,967 [Welsh] Received 'AT Ball +33304815.563901424 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145' from ('::1', 64386, 0, 0)
+2017-12-07 23:38:50,248 [Welsh] Start on port 17634
+2017-12-07 23:38:56,724 [Welsh] Connection started
+2017-12-07 23:38:56,724 [Welsh] Connected
+2017-12-07 23:38:56,724 [Welsh] Received 'AT Alford +33304852.32861352 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145' from ('::1', 64404, 0, 0)
+2017-12-07 23:38:56,724 [Welsh] Connected
+2017-12-07 23:38:56,727 [Welsh] Connected
+2017-12-07 23:38:56,727 [Welsh] Send: AT Welsh +33304852.32861352 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+2017-12-07 23:38:56,727 [Welsh] Disconnected
+2017-12-07 23:38:56,729 [Welsh] Connected
+2017-12-07 23:38:56,729 [Welsh] Send: AT Welsh +33304852.32861352 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+2017-12-07 23:38:56,729 [Welsh] Disconnected
+2017-12-07 23:38:56,733 [Welsh] Connection started
+2017-12-07 23:38:56,733 [Welsh] Connected
+2017-12-07 23:38:56,733 [Welsh] Received 'AT Ball +33304852.32861352 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145' from ('::1', 64413, 0, 0)
+2017-12-07 23:40:20,966 [Welsh] Start on port 17634
+2017-12-07 23:40:26,957 [Welsh] Connection started
+2017-12-07 23:40:26,958 [Welsh] Connected
+2017-12-07 23:40:26,958 [Welsh] Received 'AT Alford +33304942.561823606 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145' from ('::1', 64445, 0, 0)
+2017-12-07 23:40:26,958 [Welsh] Connected
+2017-12-07 23:40:26,962 [Welsh] Connected
+2017-12-07 23:40:26,962 [Welsh] Send: AT Welsh +33304942.561823606 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+2017-12-07 23:40:26,963 [Welsh] Disconnected
+2017-12-07 23:40:26,965 [Welsh] Connected
+2017-12-07 23:40:26,965 [Welsh] Send: AT Welsh +33304942.561823606 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145
+2017-12-07 23:40:26,965 [Welsh] Disconnected
+2017-12-07 23:40:26,968 [Welsh] Connection started
+2017-12-07 23:40:26,968 [Welsh] Connected
+2017-12-07 23:40:26,969 [Welsh] Received 'AT Ball +33304942.561823606 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145' from ('::1', 64454, 0, 0)
+2017-12-07 23:40:59,416 [Welsh] Connection started
+2017-12-07 23:40:59,417 [Welsh] Connected
+2017-12-07 23:40:59,417 [Welsh] Received 'AT Alford +33304975.021145344 kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.3920145' from ('::1', 64470, 0, 0)
